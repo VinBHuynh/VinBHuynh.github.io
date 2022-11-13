@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: white;
+}
+
+.topnav{
+    background: #6ba2fa;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    background: #717275;
+}
+
+.max-width{
+    width: 100%;
+}
+
+span{
+    color: white;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.profile-pic{
+    display: block;
+    width: 28%;
+    height: 28%;
+    padding-top: 1em;
+    padding-left: 8em;
+    float: left;
+    margin: 0 150px 0 0;
+}
+
+.home-content{
+    text-align: left;
+    padding-top:10em;
+}
+
+.text-1{
+    font-size: 30px;
+}
+
+.text-2{
+    font-size: 55px;
+    font-weight: bold;
+}   
+
+.text-3{
+    font-size: 40px;
+}
+
+.network{
+    padding-top: 1em;
+}
+
+.resume{
+  background-color: #6ba2fa; 
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.intro{
+    text-align: center;
+    padding-top: 1em; 
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+}
